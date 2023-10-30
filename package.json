@@ -1,0 +1,17 @@
+{
+  "name": "learning-app",
+  "module": "server",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun --watch server.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
